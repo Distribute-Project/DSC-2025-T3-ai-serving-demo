@@ -10,7 +10,7 @@ docker run -d --hostname rabbit --name rabbitmq -p 5672:5672 -p 15672:15672 -e R
 
 1.1 호스트 pc에서 127.0.0.1:15672 접속 후 admin / adminpw 로 로그인 (RabbitMQ 관리자 페이지)
 
-1.2 Admin 탭에서 testuser 생성(Monitoring 태그 추가)
+1.2 Admin 탭에서 testuser 생성(Monitoring 태그 추가) 생성한 testuser에 Permissions, Topic Permissions 설정
 
 1.3 Exchanges 탭에서 save, compute, delete 교환소 추가 (type: direct / Durability: Durable)
 
