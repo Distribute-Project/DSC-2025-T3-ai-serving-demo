@@ -1,0 +1,13 @@
+{
+    "master_id": "master1",
+    "rabbitmq_address": "127.0.0.1:5672",
+    "rabbitmq_manager_address": "127.0.0.1:15672",
+    "rabbitmq_id": "testuser",
+    "rabbitmq_password": "testuserpw",
+    "mysql_address": "127.0.0.1",
+    "mysql_port": "3306",
+    "mysql_user": "testuser",
+    "mysql_password": "testuserpw",
+    "db": "db",
+    "worker_num": 2
+}

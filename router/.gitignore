@@ -1,0 +1,9 @@
+# node modules
+/node_modules
+
+# env file
+.env
+
+#unneed files
+/uploads
+/credentials

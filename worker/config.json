@@ -1,0 +1,21 @@
+{
+    "rabbitmq": {
+        "host": "127.0.0.1", 
+        "port": 5672,
+        "user": "testuser",
+        "password": "testuserpw"
+    },
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "testuser",
+        "password": "testuserpw",
+        "database": "db"
+    },
+    "worker": {
+        "id": 1,
+        "status_update_interval": 10,
+        "model_dir": "models",
+        "max_cached_models": 3
+    }
+}
